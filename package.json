@@ -9,7 +9,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "predeploy":"npm run buld",
+    "deploy":"gh-pages -d dist"
+
   },
   "dependencies": {
     "@genkit-ai/googleai": "^1.14.1",

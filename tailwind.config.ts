@@ -96,4 +96,5 @@ export default {
     },
   },
   plugins: [require('tailwindcss-animate')],
+  base:'/Pycoder/'
 } satisfies Config;
