@@ -1,9 +1,8 @@
-import PyCoderClient from '@/components/py-coder-client';
-
+// src/app/page.tsx
 export default function Home() {
   return (
-    <main className="flex min-h-screen w-full items-center justify-center p-4 sm:p-6 md:p-8">
-      <PyCoderClient />
+    <main className="p-6">
+      <h1 className="text-2xl font-bold">Welcome to My App</h1>
     </main>
-  );
+  )
 }
